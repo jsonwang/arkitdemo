@@ -1,5 +1,4 @@
 # arkitdemo
-arkitdemo
 
 ![Banner](https://raw.githubusercontent.com/olucurious/awesome-arkit/master/banner.png)
 
