@@ -38,9 +38,9 @@
 		417F2BD120B804DE00358009 /* L3DWY888_800x600@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 417F2BD020B804DE00358009 /* L3DWY888_800x600@2x.jpg */; };
 		417F2BD520B8078400358009 /* DKVideoPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 417F2BD420B8078400358009 /* DKVideoPlane.m */; };
 		417F2BD820B807BE00358009 /* DKVideoPlayerManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 417F2BD620B807BE00358009 /* DKVideoPlayerManger.m */; };
+		41951E0C20BD4A2C00754459 /* JPARRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 41951E0A20BD4A2C00754459 /* JPARRecord.m */; };
 		41CC73FE20BD359700775949 /* demo6.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CC73FC20BD359600775949 /* demo6.m */; };
 		41CC740120BD35FD00775949 /* demo7.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CC740020BD35FD00775949 /* demo7.m */; };
-		41D9635D20BD0A1200A85D32 /* JPARRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D9635B20BD0A1200A85D32 /* JPARRecord.m */; };
 		41E30E4C202D44B700FF0245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E30E4B202D44B700FF0245 /* AppDelegate.m */; };
 		41E30E56202D44B700FF0245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E30E55202D44B700FF0245 /* Assets.xcassets */; };
 		41E30E59202D44B700FF0245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E30E57202D44B700FF0245 /* LaunchScreen.storyboard */; };
@@ -88,12 +88,12 @@
 		417F2BD420B8078400358009 /* DKVideoPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKVideoPlane.m; sourceTree = "<group>"; };
 		417F2BD620B807BE00358009 /* DKVideoPlayerManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKVideoPlayerManger.m; sourceTree = "<group>"; };
 		417F2BD720B807BE00358009 /* DKVideoPlayerManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKVideoPlayerManger.h; sourceTree = "<group>"; };
+		41951E0A20BD4A2C00754459 /* JPARRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPARRecord.m; sourceTree = "<group>"; };
+		41951E0B20BD4A2C00754459 /* JPARRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPARRecord.h; sourceTree = "<group>"; };
 		41CC73FC20BD359600775949 /* demo6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = demo6.m; sourceTree = "<group>"; };
 		41CC73FD20BD359700775949 /* demo6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo6.h; sourceTree = "<group>"; };
 		41CC73FF20BD35FD00775949 /* demo7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo7.h; sourceTree = "<group>"; };
 		41CC740020BD35FD00775949 /* demo7.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo7.m; sourceTree = "<group>"; };
-		41D9635B20BD0A1200A85D32 /* JPARRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JPARRecord.m; path = "test2-master/ARKit的录屏demo/AR的录屏demo(有声音)/JPARRecord.m"; sourceTree = SOURCE_ROOT; };
-		41D9635C20BD0A1200A85D32 /* JPARRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JPARRecord.h; path = "test2-master/ARKit的录屏demo/AR的录屏demo(有声音)/JPARRecord.h"; sourceTree = SOURCE_ROOT; };
 		41E30E47202D44B700FF0245 /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41E30E4A202D44B700FF0245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41E30E4B202D44B700FF0245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		417F2BAE20B7BBCA00358009 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				41D9635C20BD0A1200A85D32 /* JPARRecord.h */,
-				41D9635B20BD0A1200A85D32 /* JPARRecord.m */,
+				41951E0B20BD4A2C00754459 /* JPARRecord.h */,
+				41951E0A20BD4A2C00754459 /* JPARRecord.m */,
 				417F2BD220B8077C00358009 /* VideoPlayer */,
 				417F2BB520B7BC5200358009 /* ARBaseVC.h */,
 				417F2BB620B7BC5200358009 /* ARBaseVC.m */,
@@ -312,13 +312,13 @@
 				417F2BC020B8035D00358009 /* demo3.m in Sources */,
 				417F2BB420B7BBF700358009 /* DemoJumpVC.m in Sources */,
 				41CC73FE20BD359700775949 /* demo6.m in Sources */,
+				41951E0C20BD4A2C00754459 /* JPARRecord.m in Sources */,
 				417F2BBD20B7F71000358009 /* demo2.m in Sources */,
 				41CC740120BD35FD00775949 /* demo7.m in Sources */,
 				41E30E5C202D44B700FF0245 /* main.m in Sources */,
 				41441C6720BBF5E500FD1522 /* demo4.m in Sources */,
 				41E30E4C202D44B700FF0245 /* AppDelegate.m in Sources */,
 				417F2BD520B8078400358009 /* DKVideoPlane.m in Sources */,
-				41D9635D20BD0A1200A85D32 /* JPARRecord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
