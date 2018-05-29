@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD563D5D1EFBBE8800EC4969 /* swiftapi.h in Headers */ = {isa = PBXBuildFile; fileRef = CD563D5B1EFBBE8800EC4969 /* swiftapi.h */; };
+		CD563D5E1EFBBE8800EC4969 /* swiftapi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD563D5C1EFBBE8800EC4969 /* swiftapi.swift */; };
+		CD563D611EFBBEB100EC4969 /* easyar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D601EFBBEB100EC4969 /* easyar.framework */; };
+		CD563D641EFBBED300EC4969 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D631EFBBED300EC4969 /* Accelerate.framework */; };
+		CD563D661EFBBEE300EC4969 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D651EFBBEE300EC4969 /* libc++.tbd */; };
+		CD563D681EFBBF7C00EC4969 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D671EFBBF7C00EC4969 /* GLKit.framework */; };
+		CD563D6B1EFBBF9B00EC4969 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D6A1EFBBF9B00EC4969 /* AVFoundation.framework */; };
+		CD563D6D1EFBBFA100EC4969 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D6C1EFBBFA100EC4969 /* CoreGraphics.framework */; };
+		CD563D6F1EFBBFA700EC4969 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D6E1EFBBFA700EC4969 /* CoreImage.framework */; };
+		CD563D711EFBBFAD00EC4969 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D701EFBBFAD00EC4969 /* CoreMedia.framework */; };
+		CD563D731EFBBFB600EC4969 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D721EFBBFB600EC4969 /* CoreVideo.framework */; };
+		CD563D751EFBBFBE00EC4969 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D741EFBBFBE00EC4969 /* OpenGLES.framework */; };
+		CD563D771EFBBFC800EC4969 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D761EFBBFC800EC4969 /* CoreMotion.framework */; };
+		CD563D791EFBBFDD00EC4969 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD563D781EFBBFDD00EC4969 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD563D4A1EFBBD5400EC4969 /* EasyARSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyARSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD563D4E1EFBBD5400EC4969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD563D5B1EFBBE8800EC4969 /* swiftapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swiftapi.h; sourceTree = "<group>"; };
+		CD563D5C1EFBBE8800EC4969 /* swiftapi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = swiftapi.swift; sourceTree = "<group>"; };
+		CD563D601EFBBEB100EC4969 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = easyar.framework; sourceTree = "<group>"; };
+		CD563D631EFBBED300EC4969 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		CD563D651EFBBEE300EC4969 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		CD563D671EFBBF7C00EC4969 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CD563D6A1EFBBF9B00EC4969 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD563D6C1EFBBFA100EC4969 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD563D6E1EFBBFA700EC4969 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		CD563D701EFBBFAD00EC4969 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CD563D721EFBBFB600EC4969 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		CD563D741EFBBFBE00EC4969 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CD563D761EFBBFC800EC4969 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		CD563D781EFBBFDD00EC4969 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD563D461EFBBD5400EC4969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD563D791EFBBFDD00EC4969 /* UIKit.framework in Frameworks */,
+				CD563D771EFBBFC800EC4969 /* CoreMotion.framework in Frameworks */,
+				CD563D751EFBBFBE00EC4969 /* OpenGLES.framework in Frameworks */,
+				CD563D731EFBBFB600EC4969 /* CoreVideo.framework in Frameworks */,
+				CD563D711EFBBFAD00EC4969 /* CoreMedia.framework in Frameworks */,
+				CD563D6F1EFBBFA700EC4969 /* CoreImage.framework in Frameworks */,
+				CD563D6D1EFBBFA100EC4969 /* CoreGraphics.framework in Frameworks */,
+				CD563D6B1EFBBF9B00EC4969 /* AVFoundation.framework in Frameworks */,
+				CD563D681EFBBF7C00EC4969 /* GLKit.framework in Frameworks */,
+				CD563D661EFBBEE300EC4969 /* libc++.tbd in Frameworks */,
+				CD563D641EFBBED300EC4969 /* Accelerate.framework in Frameworks */,
+				CD563D611EFBBEB100EC4969 /* easyar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD563D401EFBBD5400EC4969 = {
+			isa = PBXGroup;
+			children = (
+				CD563D4C1EFBBD5400EC4969 /* EasyARSwift */,
+				CD563D4B1EFBBD5400EC4969 /* Products */,
+				CD563D5F1EFBBEB100EC4969 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD563D4B1EFBBD5400EC4969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD563D4A1EFBBD5400EC4969 /* EasyARSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD563D4C1EFBBD5400EC4969 /* EasyARSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CD563D5B1EFBBE8800EC4969 /* swiftapi.h */,
+				CD563D5C1EFBBE8800EC4969 /* swiftapi.swift */,
+				CD563D4E1EFBBD5400EC4969 /* Info.plist */,
+			);
+			path = EasyARSwift;
+			sourceTree = "<group>";
+		};
+		CD563D5F1EFBBEB100EC4969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD563D781EFBBFDD00EC4969 /* UIKit.framework */,
+				CD563D761EFBBFC800EC4969 /* CoreMotion.framework */,
+				CD563D741EFBBFBE00EC4969 /* OpenGLES.framework */,
+				CD563D721EFBBFB600EC4969 /* CoreVideo.framework */,
+				CD563D701EFBBFAD00EC4969 /* CoreMedia.framework */,
+				CD563D6E1EFBBFA700EC4969 /* CoreImage.framework */,
+				CD563D6C1EFBBFA100EC4969 /* CoreGraphics.framework */,
+				CD563D6A1EFBBF9B00EC4969 /* AVFoundation.framework */,
+				CD563D671EFBBF7C00EC4969 /* GLKit.framework */,
+				CD563D651EFBBEE300EC4969 /* libc++.tbd */,
+				CD563D631EFBBED300EC4969 /* Accelerate.framework */,
+				CD563D601EFBBEB100EC4969 /* easyar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CD563D471EFBBD5400EC4969 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD563D5D1EFBBE8800EC4969 /* swiftapi.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CD563D491EFBBD5400EC4969 /* EasyARSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD563D521EFBBD5400EC4969 /* Build configuration list for PBXNativeTarget "EasyARSwift" */;
+			buildPhases = (
+				CD563D451EFBBD5400EC4969 /* Sources */,
+				CD563D461EFBBD5400EC4969 /* Frameworks */,
+				CD563D471EFBBD5400EC4969 /* Headers */,
+				CD563D481EFBBD5400EC4969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyARSwift;
+			productName = EasyARSwift;
+			productReference = CD563D4A1EFBBD5400EC4969 /* EasyARSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD563D411EFBBD5400EC4969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					CD563D491EFBBD5400EC4969 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 52339HD2RU;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CD563D441EFBBD5400EC4969 /* Build configuration list for PBXProject "EasyARSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD563D401EFBBD5400EC4969;
+			productRefGroup = CD563D4B1EFBBD5400EC4969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD563D491EFBBD5400EC4969 /* EasyARSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD563D481EFBBD5400EC4969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD563D451EFBBD5400EC4969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD563D5E1EFBBE8800EC4969 /* swiftapi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD563D501EFBBD5400EC4969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD563D511EFBBD5400EC4969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD563D531EFBBD5400EC4969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 52339HD2RU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EasyARSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.easyar.sdk.easyar.EasyARSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = EasyARSwift/swiftapi.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD563D541EFBBD5400EC4969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 52339HD2RU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = EasyARSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.easyar.sdk.easyar.EasyARSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = EasyARSwift/swiftapi.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD563D441EFBBD5400EC4969 /* Build configuration list for PBXProject "EasyARSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD563D501EFBBD5400EC4969 /* Debug */,
+				CD563D511EFBBD5400EC4969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD563D521EFBBD5400EC4969 /* Build configuration list for PBXNativeTarget "EasyARSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD563D531EFBBD5400EC4969 /* Debug */,
+				CD563D541EFBBD5400EC4969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD563D411EFBBD5400EC4969 /* Project object */;
+}

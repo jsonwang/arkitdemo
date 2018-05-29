@@ -1,0 +1,84 @@
+{
+  "name": "arkit-web",
+  "version": "0.0.0",
+  "description": "arkit-web",
+  "scripts": {
+    "start":
+      "yarn run build:clean; concurrently 'yarn run assets' 'yarn run server' 'yarn run watch:js' 'yarn run watch:html'",
+    "server":
+      "live-server ../ARKitWeb/www --port 3000 --quiet --watch ../ARKitWeb/www --watch ./src --wait 0",
+    "watch:js":
+      "cross-env NODE_ENV=development webpack --config webpack.config.js --colors --watch",
+    "watch:html":
+      "pug --watch ./src/templates/*.pug --silent --obj ./config.js --pretty --out ../ARKitWeb/www",
+    "build":
+      "yarn run build:clean; yarn run assets; yarn run build:js; yarn run build:html;",
+    "build:js":
+      "cross-env NODE_ENV=production webpack --config webpack.config.js --colors;",
+    "build:html":
+      "cross-env NODE_ENV=production pug ./src/templates/*.pug --obj ./config.js --pretty --out ../ARKitWeb/www",
+    "build:clean": "rm -rf ../ARKitWeb/www/*",
+    "assets":
+      "mkdir -p ../ARKitWeb/www/assets; cp -R ./assets/ ../ARKitWeb/www/assets;",
+    "prettier":
+      "prettier --write --single-quote --print-width 80 './src/js/**/*.js'",
+    "prettier:internals":
+      "prettier --write --single-quote --print-width 80 \"internals/**/*.js\"",
+    "formatting": "yarn run prettier && yarn run prettier:internals",
+    "lint:fix":
+      "eslint --config .eslintrc.json --ext .js ./src/js --cache --fix",
+    "lint":
+      "eslint --config .eslintrc.json --ext .js ./src/js ./internals --cache",
+    "precommit": "yarn run lint",
+    "tunnel": "ngrok http 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stinkstudios/arkit-web.git"
+  },
+  "author":
+    "Amelie Rosser <amelierosser1986@gmail.com> (https://www.ixviii.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stinkstudios/arkit-web/issues"
+  },
+  "homepage": "https://github.com/Stinkstudios/arkit-web",
+  "engines": {
+    "node": "^8.5.0",
+    "npm": "^4.2.0",
+    "yarn": "^0.27.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babili-webpack-plugin": "^0.1.2",
+    "concurrently": "^3.5.0",
+    "cross-env": "^5.0.5",
+    "dotenv-webpack": "^1.5.4",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "husky": "^0.14.3",
+    "live-server": "^1.2.0",
+    "prettier": "^1.6.1",
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "dotenv": "^4.0.0",
+    "happens": "^0.6.0",
+    "object.observe": "^0.2.6",
+    "observed": "^1.1.2",
+    "stats-js": "^1.0.0-alpha1",
+    "three": "^0.87.1",
+    "three-material-modifier": "^0.0.3"
+  }
+}

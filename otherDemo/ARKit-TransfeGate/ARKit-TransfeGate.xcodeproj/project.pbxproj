@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F55EAEF21F4A6AC20067D15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EAEF11F4A6AC20067D15D /* AppDelegate.swift */; };
+		F55EAEF41F4A6AC20067D15D /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F55EAEF31F4A6AC20067D15D /* art.scnassets */; };
+		F55EAEF61F4A6AC20067D15D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EAEF51F4A6AC20067D15D /* ViewController.swift */; };
+		F55EAEF91F4A6AC20067D15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55EAEF71F4A6AC20067D15D /* Main.storyboard */; };
+		F55EAEFB1F4A6AC20067D15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55EAEFA1F4A6AC20067D15D /* Assets.xcassets */; };
+		F55EAEFE1F4A6AC20067D15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55EAEFC1F4A6AC20067D15D /* LaunchScreen.storyboard */; };
+		F55EAF091F4A6AC20067D15D /* ARKit_TransfeGateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EAF081F4A6AC20067D15D /* ARKit_TransfeGateTests.swift */; };
+		F55EAF141F4A6AC20067D15D /* ARKit_TransfeGateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EAF131F4A6AC20067D15D /* ARKit_TransfeGateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F55EAF051F4A6AC20067D15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55EAEE61F4A6AC20067D15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55EAEED1F4A6AC20067D15D;
+			remoteInfo = "ARKit-TransfeGate";
+		};
+		F55EAF101F4A6AC20067D15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F55EAEE61F4A6AC20067D15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F55EAEED1F4A6AC20067D15D;
+			remoteInfo = "ARKit-TransfeGate";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F55EAEEE1F4A6AC20067D15D /* ARKit-TransfeGate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-TransfeGate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55EAEF11F4A6AC20067D15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F55EAEF31F4A6AC20067D15D /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F55EAEF51F4A6AC20067D15D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F55EAEF81F4A6AC20067D15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F55EAEFA1F4A6AC20067D15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F55EAEFD1F4A6AC20067D15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F55EAEFF1F4A6AC20067D15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55EAF041F4A6AC20067D15D /* ARKit-TransfeGateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-TransfeGateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55EAF081F4A6AC20067D15D /* ARKit_TransfeGateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_TransfeGateTests.swift; sourceTree = "<group>"; };
+		F55EAF0A1F4A6AC20067D15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55EAF0F1F4A6AC20067D15D /* ARKit-TransfeGateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-TransfeGateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55EAF131F4A6AC20067D15D /* ARKit_TransfeGateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_TransfeGateUITests.swift; sourceTree = "<group>"; };
+		F55EAF151F4A6AC20067D15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F55EAEEB1F4A6AC20067D15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55EAF011F4A6AC20067D15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55EAF0C1F4A6AC20067D15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F55EAEE51F4A6AC20067D15D = {
+			isa = PBXGroup;
+			children = (
+				F55EAEF01F4A6AC20067D15D /* ARKit-TransfeGate */,
+				F55EAF071F4A6AC20067D15D /* ARKit-TransfeGateTests */,
+				F55EAF121F4A6AC20067D15D /* ARKit-TransfeGateUITests */,
+				F55EAEEF1F4A6AC20067D15D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F55EAEEF1F4A6AC20067D15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F55EAEEE1F4A6AC20067D15D /* ARKit-TransfeGate.app */,
+				F55EAF041F4A6AC20067D15D /* ARKit-TransfeGateTests.xctest */,
+				F55EAF0F1F4A6AC20067D15D /* ARKit-TransfeGateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F55EAEF01F4A6AC20067D15D /* ARKit-TransfeGate */ = {
+			isa = PBXGroup;
+			children = (
+				F55EAEF11F4A6AC20067D15D /* AppDelegate.swift */,
+				F55EAEF31F4A6AC20067D15D /* art.scnassets */,
+				F55EAEF51F4A6AC20067D15D /* ViewController.swift */,
+				F55EAEF71F4A6AC20067D15D /* Main.storyboard */,
+				F55EAEFA1F4A6AC20067D15D /* Assets.xcassets */,
+				F55EAEFC1F4A6AC20067D15D /* LaunchScreen.storyboard */,
+				F55EAEFF1F4A6AC20067D15D /* Info.plist */,
+			);
+			path = "ARKit-TransfeGate";
+			sourceTree = "<group>";
+		};
+		F55EAF071F4A6AC20067D15D /* ARKit-TransfeGateTests */ = {
+			isa = PBXGroup;
+			children = (
+				F55EAF081F4A6AC20067D15D /* ARKit_TransfeGateTests.swift */,
+				F55EAF0A1F4A6AC20067D15D /* Info.plist */,
+			);
+			path = "ARKit-TransfeGateTests";
+			sourceTree = "<group>";
+		};
+		F55EAF121F4A6AC20067D15D /* ARKit-TransfeGateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F55EAF131F4A6AC20067D15D /* ARKit_TransfeGateUITests.swift */,
+				F55EAF151F4A6AC20067D15D /* Info.plist */,
+			);
+			path = "ARKit-TransfeGateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F55EAEED1F4A6AC20067D15D /* ARKit-TransfeGate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55EAF181F4A6AC20067D15D /* Build configuration list for PBXNativeTarget "ARKit-TransfeGate" */;
+			buildPhases = (
+				F55EAEEA1F4A6AC20067D15D /* Sources */,
+				F55EAEEB1F4A6AC20067D15D /* Frameworks */,
+				F55EAEEC1F4A6AC20067D15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit-TransfeGate";
+			productName = "ARKit-TransfeGate";
+			productReference = F55EAEEE1F4A6AC20067D15D /* ARKit-TransfeGate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F55EAF031F4A6AC20067D15D /* ARKit-TransfeGateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55EAF1B1F4A6AC20067D15D /* Build configuration list for PBXNativeTarget "ARKit-TransfeGateTests" */;
+			buildPhases = (
+				F55EAF001F4A6AC20067D15D /* Sources */,
+				F55EAF011F4A6AC20067D15D /* Frameworks */,
+				F55EAF021F4A6AC20067D15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55EAF061F4A6AC20067D15D /* PBXTargetDependency */,
+			);
+			name = "ARKit-TransfeGateTests";
+			productName = "ARKit-TransfeGateTests";
+			productReference = F55EAF041F4A6AC20067D15D /* ARKit-TransfeGateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F55EAF0E1F4A6AC20067D15D /* ARKit-TransfeGateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55EAF1E1F4A6AC20067D15D /* Build configuration list for PBXNativeTarget "ARKit-TransfeGateUITests" */;
+			buildPhases = (
+				F55EAF0B1F4A6AC20067D15D /* Sources */,
+				F55EAF0C1F4A6AC20067D15D /* Frameworks */,
+				F55EAF0D1F4A6AC20067D15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55EAF111F4A6AC20067D15D /* PBXTargetDependency */,
+			);
+			name = "ARKit-TransfeGateUITests";
+			productName = "ARKit-TransfeGateUITests";
+			productReference = F55EAF0F1F4A6AC20067D15D /* ARKit-TransfeGateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F55EAEE61F4A6AC20067D15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = xujie;
+				TargetAttributes = {
+					F55EAEED1F4A6AC20067D15D = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					F55EAF031F4A6AC20067D15D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = F55EAEED1F4A6AC20067D15D;
+					};
+					F55EAF0E1F4A6AC20067D15D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = F55EAEED1F4A6AC20067D15D;
+					};
+				};
+			};
+			buildConfigurationList = F55EAEE91F4A6AC20067D15D /* Build configuration list for PBXProject "ARKit-TransfeGate" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F55EAEE51F4A6AC20067D15D;
+			productRefGroup = F55EAEEF1F4A6AC20067D15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F55EAEED1F4A6AC20067D15D /* ARKit-TransfeGate */,
+				F55EAF031F4A6AC20067D15D /* ARKit-TransfeGateTests */,
+				F55EAF0E1F4A6AC20067D15D /* ARKit-TransfeGateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F55EAEEC1F4A6AC20067D15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EAEF41F4A6AC20067D15D /* art.scnassets in Resources */,
+				F55EAEFE1F4A6AC20067D15D /* LaunchScreen.storyboard in Resources */,
+				F55EAEFB1F4A6AC20067D15D /* Assets.xcassets in Resources */,
+				F55EAEF91F4A6AC20067D15D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55EAF021F4A6AC20067D15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55EAF0D1F4A6AC20067D15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F55EAEEA1F4A6AC20067D15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EAEF61F4A6AC20067D15D /* ViewController.swift in Sources */,
+				F55EAEF21F4A6AC20067D15D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55EAF001F4A6AC20067D15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EAF091F4A6AC20067D15D /* ARKit_TransfeGateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55EAF0B1F4A6AC20067D15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55EAF141F4A6AC20067D15D /* ARKit_TransfeGateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55EAF061F4A6AC20067D15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55EAEED1F4A6AC20067D15D /* ARKit-TransfeGate */;
+			targetProxy = F55EAF051F4A6AC20067D15D /* PBXContainerItemProxy */;
+		};
+		F55EAF111F4A6AC20067D15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F55EAEED1F4A6AC20067D15D /* ARKit-TransfeGate */;
+			targetProxy = F55EAF101F4A6AC20067D15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F55EAEF71F4A6AC20067D15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55EAEF81F4A6AC20067D15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F55EAEFC1F4A6AC20067D15D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F55EAEFD1F4A6AC20067D15D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F55EAF161F4A6AC20067D15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F55EAF171F4A6AC20067D15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F55EAF191F4A6AC20067D15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = "ARKit-TransfeGate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xujie.ARKit-TransfeGate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55EAF1A1F4A6AC20067D15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = "ARKit-TransfeGate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xujie.ARKit-TransfeGate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F55EAF1C1F4A6AC20067D15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = "ARKit-TransfeGateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xujie.ARKit-TransfeGateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-TransfeGate.app/ARKit-TransfeGate";
+			};
+			name = Debug;
+		};
+		F55EAF1D1F4A6AC20067D15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = "ARKit-TransfeGateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xujie.ARKit-TransfeGateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-TransfeGate.app/ARKit-TransfeGate";
+			};
+			name = Release;
+		};
+		F55EAF1F1F4A6AC20067D15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = "ARKit-TransfeGateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xujie.ARKit-TransfeGateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit-TransfeGate";
+			};
+			name = Debug;
+		};
+		F55EAF201F4A6AC20067D15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U3G5SY257L;
+				INFOPLIST_FILE = "ARKit-TransfeGateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xujie.ARKit-TransfeGateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ARKit-TransfeGate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F55EAEE91F4A6AC20067D15D /* Build configuration list for PBXProject "ARKit-TransfeGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55EAF161F4A6AC20067D15D /* Debug */,
+				F55EAF171F4A6AC20067D15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55EAF181F4A6AC20067D15D /* Build configuration list for PBXNativeTarget "ARKit-TransfeGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55EAF191F4A6AC20067D15D /* Debug */,
+				F55EAF1A1F4A6AC20067D15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55EAF1B1F4A6AC20067D15D /* Build configuration list for PBXNativeTarget "ARKit-TransfeGateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55EAF1C1F4A6AC20067D15D /* Debug */,
+				F55EAF1D1F4A6AC20067D15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55EAF1E1F4A6AC20067D15D /* Build configuration list for PBXNativeTarget "ARKit-TransfeGateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55EAF1F1F4A6AC20067D15D /* Debug */,
+				F55EAF201F4A6AC20067D15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F55EAEE61F4A6AC20067D15D /* Project object */;
+}
