@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165CB15B1FD7E3A300282536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165CB15A1FD7E3A300282536 /* AppDelegate.m */; };
+		165CB15D1FD7E3A300282536 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 165CB15C1FD7E3A300282536 /* art.scnassets */; };
+		165CB1601FD7E3A300282536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165CB15F1FD7E3A300282536 /* ViewController.m */; };
+		165CB1631FD7E3A300282536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165CB1611FD7E3A300282536 /* Main.storyboard */; };
+		165CB1651FD7E3A300282536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165CB1641FD7E3A300282536 /* Assets.xcassets */; };
+		165CB1681FD7E3A300282536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165CB1661FD7E3A300282536 /* LaunchScreen.storyboard */; };
+		165CB16B1FD7E3A300282536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165CB16A1FD7E3A300282536 /* main.m */; };
+		165CB1751FD7E3A300282536 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165CB1741FD7E3A300282536 /* ______Tests.m */; };
+		165CB1801FD7E3A300282536 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165CB17F1FD7E3A300282536 /* ______UITests.m */; };
+		165CB18F1FD7F33200282536 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 165CB18E1FD7F33200282536 /* Ship.m */; };
+		16F061401FD8DBA500C5055B /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 16F0613F1FD8DBA500C5055B /* Bullet.m */; };
+		16F061881FD932BA00C5055B /* explosion.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 16F061871FD932B900C5055B /* explosion.scnp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		165CB1711FD7E3A300282536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 165CB14E1FD7E3A300282536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165CB1551FD7E3A300282536;
+			remoteInfo = "射击类小游戏";
+		};
+		165CB17C1FD7E3A300282536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 165CB14E1FD7E3A300282536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 165CB1551FD7E3A300282536;
+			remoteInfo = "射击类小游戏";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		165CB1561FD7E3A300282536 /* 射击类小游戏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "射击类小游戏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		165CB1591FD7E3A300282536 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		165CB15A1FD7E3A300282536 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		165CB15C1FD7E3A300282536 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		165CB15E1FD7E3A300282536 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		165CB15F1FD7E3A300282536 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		165CB1621FD7E3A300282536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		165CB1641FD7E3A300282536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		165CB1671FD7E3A300282536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		165CB1691FD7E3A300282536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165CB16A1FD7E3A300282536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		165CB1701FD7E3A300282536 /* 射击类小游戏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "射击类小游戏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		165CB1741FD7E3A300282536 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		165CB1761FD7E3A300282536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165CB17B1FD7E3A300282536 /* 射击类小游戏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "射击类小游戏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		165CB17F1FD7E3A300282536 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		165CB1811FD7E3A300282536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165CB18D1FD7F33200282536 /* Ship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		165CB18E1FD7F33200282536 /* Ship.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		16F0613E1FD8DBA500C5055B /* Bullet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		16F0613F1FD8DBA500C5055B /* Bullet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		16F061871FD932B900C5055B /* explosion.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = explosion.scnp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		165CB1531FD7E3A300282536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165CB16D1FD7E3A300282536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165CB1781FD7E3A300282536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165CB14D1FD7E3A300282536 = {
+			isa = PBXGroup;
+			children = (
+				165CB1581FD7E3A300282536 /* 射击类小游戏 */,
+				165CB1731FD7E3A300282536 /* 射击类小游戏Tests */,
+				165CB17E1FD7E3A300282536 /* 射击类小游戏UITests */,
+				165CB1571FD7E3A300282536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		165CB1571FD7E3A300282536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				165CB1561FD7E3A300282536 /* 射击类小游戏.app */,
+				165CB1701FD7E3A300282536 /* 射击类小游戏Tests.xctest */,
+				165CB17B1FD7E3A300282536 /* 射击类小游戏UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		165CB1581FD7E3A300282536 /* 射击类小游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				165CB1591FD7E3A300282536 /* AppDelegate.h */,
+				165CB15A1FD7E3A300282536 /* AppDelegate.m */,
+				165CB15C1FD7E3A300282536 /* art.scnassets */,
+				165CB15E1FD7E3A300282536 /* ViewController.h */,
+				165CB15F1FD7E3A300282536 /* ViewController.m */,
+				165CB18D1FD7F33200282536 /* Ship.h */,
+				165CB18E1FD7F33200282536 /* Ship.m */,
+				16F0613E1FD8DBA500C5055B /* Bullet.h */,
+				16F0613F1FD8DBA500C5055B /* Bullet.m */,
+				16F061871FD932B900C5055B /* explosion.scnp */,
+				165CB1611FD7E3A300282536 /* Main.storyboard */,
+				165CB1641FD7E3A300282536 /* Assets.xcassets */,
+				165CB1661FD7E3A300282536 /* LaunchScreen.storyboard */,
+				165CB1691FD7E3A300282536 /* Info.plist */,
+				165CB16A1FD7E3A300282536 /* main.m */,
+			);
+			path = "射击类小游戏";
+			sourceTree = "<group>";
+		};
+		165CB1731FD7E3A300282536 /* 射击类小游戏Tests */ = {
+			isa = PBXGroup;
+			children = (
+				165CB1741FD7E3A300282536 /* ______Tests.m */,
+				165CB1761FD7E3A300282536 /* Info.plist */,
+			);
+			path = "射击类小游戏Tests";
+			sourceTree = "<group>";
+		};
+		165CB17E1FD7E3A300282536 /* 射击类小游戏UITests */ = {
+			isa = PBXGroup;
+			children = (
+				165CB17F1FD7E3A300282536 /* ______UITests.m */,
+				165CB1811FD7E3A300282536 /* Info.plist */,
+			);
+			path = "射击类小游戏UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		165CB1551FD7E3A300282536 /* 射击类小游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165CB1841FD7E3A300282536 /* Build configuration list for PBXNativeTarget "射击类小游戏" */;
+			buildPhases = (
+				165CB1521FD7E3A300282536 /* Sources */,
+				165CB1531FD7E3A300282536 /* Frameworks */,
+				165CB1541FD7E3A300282536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "射击类小游戏";
+			productName = "射击类小游戏";
+			productReference = 165CB1561FD7E3A300282536 /* 射击类小游戏.app */;
+			productType = "com.apple.product-type.application";
+		};
+		165CB16F1FD7E3A300282536 /* 射击类小游戏Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165CB1871FD7E3A300282536 /* Build configuration list for PBXNativeTarget "射击类小游戏Tests" */;
+			buildPhases = (
+				165CB16C1FD7E3A300282536 /* Sources */,
+				165CB16D1FD7E3A300282536 /* Frameworks */,
+				165CB16E1FD7E3A300282536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165CB1721FD7E3A300282536 /* PBXTargetDependency */,
+			);
+			name = "射击类小游戏Tests";
+			productName = "射击类小游戏Tests";
+			productReference = 165CB1701FD7E3A300282536 /* 射击类小游戏Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		165CB17A1FD7E3A300282536 /* 射击类小游戏UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165CB18A1FD7E3A300282536 /* Build configuration list for PBXNativeTarget "射击类小游戏UITests" */;
+			buildPhases = (
+				165CB1771FD7E3A300282536 /* Sources */,
+				165CB1781FD7E3A300282536 /* Frameworks */,
+				165CB1791FD7E3A300282536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				165CB17D1FD7E3A300282536 /* PBXTargetDependency */,
+			);
+			name = "射击类小游戏UITests";
+			productName = "射击类小游戏UITests";
+			productReference = 165CB17B1FD7E3A300282536 /* 射击类小游戏UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		165CB14E1FD7E3A300282536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = poco;
+				TargetAttributes = {
+					165CB1551FD7E3A300282536 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					165CB16F1FD7E3A300282536 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165CB1551FD7E3A300282536;
+					};
+					165CB17A1FD7E3A300282536 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 165CB1551FD7E3A300282536;
+					};
+				};
+			};
+			buildConfigurationList = 165CB1511FD7E3A300282536 /* Build configuration list for PBXProject "射击类小游戏" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 165CB14D1FD7E3A300282536;
+			productRefGroup = 165CB1571FD7E3A300282536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				165CB1551FD7E3A300282536 /* 射击类小游戏 */,
+				165CB16F1FD7E3A300282536 /* 射击类小游戏Tests */,
+				165CB17A1FD7E3A300282536 /* 射击类小游戏UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		165CB1541FD7E3A300282536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165CB15D1FD7E3A300282536 /* art.scnassets in Resources */,
+				165CB1681FD7E3A300282536 /* LaunchScreen.storyboard in Resources */,
+				165CB1651FD7E3A300282536 /* Assets.xcassets in Resources */,
+				165CB1631FD7E3A300282536 /* Main.storyboard in Resources */,
+				16F061881FD932BA00C5055B /* explosion.scnp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165CB16E1FD7E3A300282536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165CB1791FD7E3A300282536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165CB1521FD7E3A300282536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F061401FD8DBA500C5055B /* Bullet.m in Sources */,
+				165CB1601FD7E3A300282536 /* ViewController.m in Sources */,
+				165CB18F1FD7F33200282536 /* Ship.m in Sources */,
+				165CB16B1FD7E3A300282536 /* main.m in Sources */,
+				165CB15B1FD7E3A300282536 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165CB16C1FD7E3A300282536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165CB1751FD7E3A300282536 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		165CB1771FD7E3A300282536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165CB1801FD7E3A300282536 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		165CB1721FD7E3A300282536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165CB1551FD7E3A300282536 /* 射击类小游戏 */;
+			targetProxy = 165CB1711FD7E3A300282536 /* PBXContainerItemProxy */;
+		};
+		165CB17D1FD7E3A300282536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 165CB1551FD7E3A300282536 /* 射击类小游戏 */;
+			targetProxy = 165CB17C1FD7E3A300282536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		165CB1611FD7E3A300282536 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165CB1621FD7E3A300282536 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		165CB1661FD7E3A300282536 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				165CB1671FD7E3A300282536 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		165CB1821FD7E3A300282536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		165CB1831FD7E3A300282536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		165CB1851FD7E3A300282536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FJV2B9GPDW;
+				INFOPLIST_FILE = "射击类小游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoyoshijie.philm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d60f0f3b-a844-4320-bb4a-47c8a6e6532c";
+				PROVISIONING_PROFILE_SPECIFIER = com.yoyoshijie.philm.beta;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		165CB1861FD7E3A300282536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FJV2B9GPDW;
+				INFOPLIST_FILE = "射击类小游戏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoyoshijie.philm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d60f0f3b-a844-4320-bb4a-47c8a6e6532c";
+				PROVISIONING_PROFILE_SPECIFIER = com.yoyoshijie.philm.beta;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		165CB1881FD7E3A300282536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "射击类小游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "poco.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/射击类小游戏.app/射击类小游戏";
+			};
+			name = Debug;
+		};
+		165CB1891FD7E3A300282536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "射击类小游戏Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "poco.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/射击类小游戏.app/射击类小游戏";
+			};
+			name = Release;
+		};
+		165CB18B1FD7E3A300282536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "射击类小游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "poco.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "射击类小游戏";
+			};
+			name = Debug;
+		};
+		165CB18C1FD7E3A300282536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "射击类小游戏UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "poco.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "射击类小游戏";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		165CB1511FD7E3A300282536 /* Build configuration list for PBXProject "射击类小游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165CB1821FD7E3A300282536 /* Debug */,
+				165CB1831FD7E3A300282536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165CB1841FD7E3A300282536 /* Build configuration list for PBXNativeTarget "射击类小游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165CB1851FD7E3A300282536 /* Debug */,
+				165CB1861FD7E3A300282536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165CB1871FD7E3A300282536 /* Build configuration list for PBXNativeTarget "射击类小游戏Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165CB1881FD7E3A300282536 /* Debug */,
+				165CB1891FD7E3A300282536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		165CB18A1FD7E3A300282536 /* Build configuration list for PBXNativeTarget "射击类小游戏UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				165CB18B1FD7E3A300282536 /* Debug */,
+				165CB18C1FD7E3A300282536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 165CB14E1FD7E3A300282536 /* Project object */;
+}
